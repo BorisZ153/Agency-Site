@@ -47,6 +47,10 @@
     scroll-behavior: smooth;
 }
 
+button {
+    cursor: pointer;
+}
+
 /*Page*/
 .page {
     font-family: 'Open Sans';
@@ -552,8 +556,9 @@
     font-family: 'Open Sans';
     font-size: 42px;
     font-weight: 700;
-    line-height: 24px;
+    line-height: 1.2;
     margin: 0;
+    margin-bottom: 17px;
 }
 
 .subscribe__about {
@@ -561,6 +566,7 @@
     font-family: 'Open Sans';
     font-size: 16px;
     line-height: 28px;
+    margin: 0;
     margin-bottom: 60px;
 }
 
@@ -593,4 +599,5 @@
     border: none;
     border-radius: 5px;
     background-color: #FF2D2D;
+    text-transform: uppercase;
 }

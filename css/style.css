@@ -155,6 +155,78 @@ button {
     background-color: #ff3f40;
 }
 
+@media screen and (max-width:800px) {
+    .site-menu {
+        display: none;
+    }
+}
+
+/*Popup-menu*/
+.popup-menu {
+    position: relative;
+}
+
+.popup-menu__button {
+    display: block;
+    width: 300px;
+    height: 69px;
+    background-image: url(../img/popup-menu__image.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.popup-menu__list {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 100%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;
+}
+
+.popup-menu__item {
+    display: flex;
+    min-height: 89px;
+}
+
+.popup-menu__link {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #e0e0e0;
+}
+
+.popup-menu__link:hover {
+    background-color: #ff3f40;
+}
+
+.popup-menu__link_active {
+    background-color: #ff3f40;
+}
+
+@media screen and (min-width:800px) {
+    .popup-menu {
+        display: none;
+    }
+}
+
 /*Main*/
 /*Intro*/
 .intro {
@@ -451,7 +523,7 @@ button {
     margin: 0 auto;
 }
 .hor-line_left {
-    margin: 0;
+    margin: 0 1vw;
 }
 
 .filter {
@@ -792,6 +864,7 @@ button {
     margin: 0 auto;
     margin-bottom: 77px;
     padding: 0 1vw;
+    box-sizing: border-box;
 }
 
 .feedback__heading {
@@ -802,6 +875,8 @@ button {
     margin: 0 auto;
     margin-bottom: 35px;
     text-transform: uppercase;
+    padding: 0 1vw;
+    box-sizing: border-box;
 }
 
 .feedback__about {
@@ -854,6 +929,7 @@ button {
     border: none;
     border-radius: 5px;
     padding-left: 53px;
+    padding-right: 53px;
     margin-right: 53px;
     margin-bottom: 44px;
     font-family: 'Open Sans';
@@ -868,6 +944,7 @@ button {
     border: none;
     border-radius: 5px;
     padding-left: 48px;
+    padding-right: 48px;
     margin-bottom: 44px;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -882,6 +959,7 @@ button {
     font-family: 'Open Sans';
     font-size: 18px;
     color: #fff;
+    text-transform: uppercase;
 }
 
 .feedback__textarea {
@@ -1021,4 +1099,9 @@ button {
 .social {
     display: flex;
     gap: 18px;
+}
+
+/*JS*/
+.hide {
+    display: none;
 }

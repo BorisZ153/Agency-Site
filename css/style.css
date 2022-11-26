@@ -523,7 +523,7 @@ button {
     margin: 0 auto;
 }
 .hor-line_left {
-    margin: 0 1vw;
+    margin: 0 0vw;
 }
 
 .filter {
@@ -854,29 +854,32 @@ button {
 .feedback {
     max-width: 100%;
     margin: 0 auto;
-    /*padding: 0 1vw;*/
+    padding: 0 1vw;
     padding-top: 104px;
     padding-bottom: 107px;
+    /*text-align: left;*/
+
 }
 
 .feedback__header {
-    max-width: 1249px;
-    margin: 0 auto;
+    /*max-width: 1249px;*/
+    /*margin: 0 auto;*/
     margin-bottom: 77px;
-    padding: 0 1vw;
-    box-sizing: border-box;
+    /*margin-left: 25px;*/
+    /*padding: 0 1vw;*/
+    /*box-sizing: border-box;*/
 }
 
 .feedback__heading {
-    max-width: 1249px;
+    /*max-width: 1249px;*/
     font-family: 'Open Sans';
     font-size: 42px;
     font-weight: 700;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     margin-bottom: 35px;
     text-transform: uppercase;
-    padding: 0 1vw;
-    box-sizing: border-box;
+    /*padding: 0 1vw;*/
+    /*box-sizing: border-box;*/
 }
 
 .feedback__about {
@@ -885,9 +888,9 @@ button {
     font-size: 16px;
     line-height: 1.75;
     /*width: 450px;*/
-    margin: 0;
+    /*margin: 0;*/
     margin-bottom: 50px;
-    padding: 0 1vw;
+    /*padding: 0 1vw;*/
 }
 
 .feedback__body {
@@ -958,6 +961,7 @@ button {
     background-color: #FF3B2B;
     font-family: 'Open Sans';
     font-size: 18px;
+    font-weight: 700;
     color: #fff;
     text-transform: uppercase;
 }
